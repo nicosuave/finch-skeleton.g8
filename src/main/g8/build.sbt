@@ -40,6 +40,8 @@ libraryDependencies ++= Seq(
   "com.typesafe" % "config" % "1.3.1",
   // -- testing --
   "org.scalacheck" %% "scalacheck" % "1.13.4" % "test",
+  "org.scalactic" %% "scalactic" % "3.0.1",
+  "org.scalatest" %% "scalatest" % "3.0.1" % "test",
   // -- Logging --
   "ch.qos.logback" % "logback-classic" % "1.1.3",
   "com.typesafe.scala-logging" %% "scala-logging" % "3.1.0",
@@ -60,6 +62,7 @@ ivyScala := ivyScala.value map { _.copy(overrideScalaVersion = true) }
 initialCommands in console := "import cats._, cats.data._, cats.implicits._"
 
 resolvers ++= Seq(
+  "Artima Maven Repository" at "http://repo.artima.com/releases",
   "TM" at "http://maven.twttr.com",
   "Typesafe Snapshots" at "http://repo.typesafe.com/typesafe/snapshots/",
   "Secured Central Repository" at "https://repo1.maven.org/maven2",
