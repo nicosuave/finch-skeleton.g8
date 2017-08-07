@@ -6,7 +6,7 @@ seq(Revolver.settings: _*)
 
 
 /* scala versions and options */
-scalaVersion := "2.11.7"
+scalaVersion := "2.12.2"
 
 // These options will be used for *all* versions.
 scalacOptions ++= Seq(
@@ -77,4 +77,3 @@ ScalariformKeys.preferences := ScalariformKeys.preferences.value
   .setPreference(IndentPackageBlocks, true)
   .setPreference(IndentSpaces, 2)
   .setPreference(MultilineScaladocCommentsStartOnFirstLine, false)
-
