@@ -57,7 +57,7 @@ fork := true
 
 ivyScala := ivyScala.value map { _.copy(overrideScalaVersion = true) }
 
-initialCommands in console := "import scalaz._, Scalaz._"
+initialCommands in console := "import cats._, cats.data._, cats.implicits._"
 
 resolvers ++= Seq(
   "TM" at "http://maven.twttr.com",
