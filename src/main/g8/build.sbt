@@ -48,6 +48,7 @@ libraryDependencies ++= Seq(
   // -- Finch --
   "com.github.finagle" %% "finch-core" % FinchVersion,
   "com.github.finagle" %% "finch-circe" % FinchVersion,
+  "com.github.finagle" %% "finch-test" % FinchVersion % "test",
   // -- json/circe --
   "io.circe" %% "circe-core" % CirceVersion,
   "io.circe" %% "circe-generic" % CirceVersion,
