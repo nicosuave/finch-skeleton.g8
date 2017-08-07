@@ -43,8 +43,6 @@ libraryDependencies ++= Seq(
   // -- Logging --
   "ch.qos.logback" % "logback-classic" % "1.1.3",
   "com.typesafe.scala-logging" %% "scala-logging" % "3.1.0",
-  // -- Joda --
-  "joda-time" % "joda-time" % "2.9.6",
   // -- Finch --
   "com.github.finagle" %% "finch-core" % FinchVersion,
   "com.github.finagle" %% "finch-circe" % FinchVersion,
@@ -77,4 +75,3 @@ ScalariformKeys.preferences := ScalariformKeys.preferences.value
   .setPreference(IndentPackageBlocks, true)
   .setPreference(IndentSpaces, 2)
   .setPreference(MultilineScaladocCommentsStartOnFirstLine, false)
-
