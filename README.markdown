@@ -1,20 +1,10 @@
-# g8's project template for a typical finch stack
+# minimalist g8 project template for a finch microservice
 
-Wanted to make use g8 templates and make the whole use of the finch ecosystem easier to install. Also I wanted to make sure people working with finch got all the goodies.
+Forked from [bneil's](https://github.com/bneil/finch-skeleton.g8), slimmed down, & updated dependencies.
 
 ## Requirements
 
-You need to install [giter8](https://github.com/n8han/giter8)
-
-after which you only need to:
-
-```
-g8 bneil/finch-skeleton.g8
-```
-
-or thanks to the latest improvements to sbt you can use:
-
-`sbt -sbt-version 0.13.15 new bneil/finch-skeleton.g8`
+`sbt -sbt-version 0.13.16 new nicosuave/finch-skeleton.g8`
 
 ## Why Use Finch?
 
